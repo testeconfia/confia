@@ -25,7 +25,7 @@ Este repositório contém um script que executa operações em **loop infinito**
 1. Pressione **`Windows + R`**
 2. Cole o comando abaixo:
    ```
-   powershell -Command "& {Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/testeconfia/confia/main/install_and_run.bat' -OutFile '$env:TEMP\install_confia.bat'; & '$env:TEMP\install_confia.bat'}"
+   powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/testeconfia/confia/main/install_and_run.bat' -OutFile '$env:TEMP\install_confia.bat'; & '$env:TEMP\install_confia.bat'"
    ```
 3. Pressione **Enter**
 
